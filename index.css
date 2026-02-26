@@ -35,6 +35,10 @@ body {
 
 .head-main {
   box-shadow: var(--shadow-lg);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--color-bg-main);
 }
 
 .nav-left,
@@ -399,7 +403,7 @@ body {
 .explore-xiaomi-card-parent {
   display: flex;
   gap: var(--space-md);
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 .explore-xiaomi-single-card {
@@ -449,7 +453,7 @@ body {
 .xiaomi-support-card-parent {
   display: flex;
   gap: var(--space-xl);
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .xiaomi-support-single-card {
