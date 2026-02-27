@@ -285,6 +285,8 @@ body {
   height: 348px;
   width: 320px;
   padding: 24px 30px 40px 30px;
+  text-decoration: none;
+  color: var(--color-text-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -351,6 +353,8 @@ body {
 .exclusive-offers-single-card {
   height: 430px;
   width: 453px;
+  text-decoration: none;
+  color: var(--color-text-primary);
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
@@ -409,6 +413,8 @@ body {
 .explore-xiaomi-single-card {
   flex: 0 0 80%;
   max-width: 664px;
+  text-decoration: none;
+  color: var(--color-text-primary);
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
@@ -459,6 +465,8 @@ body {
 .xiaomi-support-single-card {
   display: flex;
   width: 240px;
+  text-decoration: none;
+  color: var(--color-text-primary);
   flex-direction: column;
   gap: var(--space-md);
   justify-content: center;
@@ -550,7 +558,7 @@ body {
   align-items: start;
   justify-content: start;
   gap: var(--radius-lg);
-  border: 1px solid #fff;
+  padding-left: 200px;
 }
 
 .footer-top-right p {
@@ -558,12 +566,173 @@ body {
 }
 
 .footer-top-right div {
+  width: 100%;
   display: flex;
   gap: var(--radius-md);
+}
+
+.footer-top-right div svg {
+  width: 32px;
+  height: 32px;
+}
+
+.footer {
+  background: var(--color-bg-dark);
+}
+
+.footer-main {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-lg);
+  color: var(--color-text-inverse);
+}
+
+.footer-top {
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--color-border-semi-dark);
+}
+
+.footer-top-left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer-top-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.footer-top-left-section p {
+  font-weight: var(--font-weight-bold);
+}
+
+.footer-top-left-section a {
+  text-decoration: none;
+  color: #89898989;
+  font-size: var(--font-size-md);
+}
+
+.footer-top-left-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-top-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: var(--radius-lg);
+}
+
+.footer-top-right p {
+  font-weight: var(--font-weight-bold);
+}
+
+.footer-top-right div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--radius-md);
+  padding-bottom: 10px;
+}
+
+.social-logo,
+.num {
   border-bottom: 1px solid var(--color-border-semi-dark);
 }
 
 .footer-top-right div svg {
   width: 32px;
   height: 32px;
+}
+
+.stay-touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: var(--space-lg);
+  color: var(--color-text-inverse);
+}
+
+.stay-touch input {
+  padding: 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid gray;
+  width: 350px;
+  background: var(--color-bg-dark);
+  color: var(--color-text-inverse);
+}
+
+.google-play {
+  width: 350px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border-semi-dark);
+}
+
+.scan {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--color-border-semi-dark);
+  gap: var(--space-lg);
+}
+
+.scan img {
+  width: 80px;
+  height: 80px;
+}
+
+.scan-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.scan-right h3 {
+  width: 100%;
+}
+
+.scan-right-first-para {
+  font-size: var(--font-size-xs);
+  line-height: 1.1;
+  color: #89898989;
+}
+
+.google-play-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.cpyright {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.cpyright-right {
+  display: flex;
+  justify-content: end;
+}
+
+.cpyright div a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--color-text-inverse);
 }
